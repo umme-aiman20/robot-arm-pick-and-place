@@ -19,4 +19,4 @@ while True:
     if terminated or truncated:
         obs, _ = env.reset()
 
-    time.sleep(1. / 240.)  # slow down simulation for visibility
+    time.sleep(1. / 240.) 
