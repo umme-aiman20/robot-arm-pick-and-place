@@ -5,10 +5,8 @@ import numpy as np
 from stable_baselines3 import PPO
 from env.robot_env import RobotArmPickPlaceEnv
 
-# Load the environment in render mode
 env = RobotArmPickPlaceEnv(render=True)
 
-# Load the trained PPO model
 model = PPO.load("robot_arm_model.zip")
 
 
